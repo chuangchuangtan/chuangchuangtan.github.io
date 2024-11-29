@@ -138,5 +138,5 @@ ACM International Conference on Multimedia (*ACM MM*) 2020.
 - *2017.06*, Awarded the title of ”Person of the Year” at Yanshan University.
 
 # 💻 Internships
-- *2024.09 - new*, MSRA • MC Group, Beijing, China.
+- *2024.09 - now*, MSRA • MC Group, Beijing, China.
 - *2023.01 – 2023.10*, Visit to Singapore’s A*STAR • CFAR Exchange.
