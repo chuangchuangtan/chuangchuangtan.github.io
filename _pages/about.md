@@ -29,12 +29,14 @@ If you have an interest in these topics or are seeking research collaboration, p
 
 
 # 🔥 News
-- *2024.2*: &nbsp;📄 One paper Accepted by CVPR 2024! Thanks for all my co-authors!
+- *2024.2*: &nbsp;📄 2 paper Accepted by CVPR 2024! Thanks for all my co-authors!
+- *2024.12*: &nbsp;📄 2 paper Accepted by AAAI 2025! Thanks for all my co-authors!
+
 
 # 📝 Publications 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2024</div><img src='images/C2P-CLIP.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/C2P-CLIP.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 C2P-CLIP: Injecting Category Common Prompt in CLIP to Enhance Generalization in Deepfake Detection. [pdf](https://arxiv.org/abs/2408.09647). [Github](https://github.com/chuangchuangtan/C2P-CLIP-DeepfakeDetection).
