@@ -6,11 +6,8 @@ author_profile: false
 ---
 
 <div class="faculty-home">
-
 <section class="faculty-intro">
-  <div class="faculty-photo">
-    <img src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=ufR1PmMAAAAJ&citpid=1" alt="Chuangchuang Tan">
-  </div>
+  <div class="faculty-photo"><img src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=ufR1PmMAAAAJ&citpid=1" alt="Chuangchuang Tan"></div>
   <div class="faculty-bio">
     <h1>Chuangchuang Tan <span>谭创创</span></h1>
     <p class="faculty-position">Lecturer, School of Computer Science & Technology<br>Beijing Jiaotong University</p>
@@ -40,9 +37,7 @@ author_profile: false
   <div class="section-heading-row"><h2>Selected Publications</h2><a href="/publications/">Full list →</a></div>
 
   <article class="faculty-paper">
-    <div class="faculty-paper-teaser faculty-paper-teaser--text">
-      <span>Semantic<br>Anomaly</span><small>Detection · Reasoning</small>
-    </div>
+    <div class="faculty-paper-teaser faculty-paper-teaser--text"><span>Semantic<br>Anomaly</span><small>Detection · Reasoning</small></div>
     <div class="faculty-paper-info">
       <h3>Semantic Visual Anomaly Detection and Reasoning in AI-Generated Images</h3>
       <p class="paper-authors"><strong>Chuangchuang Tan</strong>, Xiang Ming, Jinglu Wang, Renshuai Tao, Bin Li, Yunchao Wei, Yao Zhao, Yan Lu</p>
@@ -72,16 +67,6 @@ author_profile: false
   </article>
 
   <article class="faculty-paper">
-    <div class="faculty-paper-teaser"><img src="{{ '/images/FreqNet.png' | relative_url }}" alt="FreqNet"></div>
-    <div class="faculty-paper-info">
-      <h3>Frequency-Aware Deepfake Detection: Improving Generalizability through Frequency Space Learning</h3>
-      <p class="paper-authors"><strong>Chuangchuang Tan</strong>, Yao Zhao, Shikui Wei, Guanghua Gu, Ping Liu, Yunchao Wei</p>
-      <p class="paper-venue">AAAI 2024</p>
-      <p class="paper-links"><a href="https://arxiv.org/abs/2403.07240" target="_blank" rel="noopener">Paper</a> · <a href="https://github.com/chuangchuangtan/FreqNet-DeepfakeDetection" target="_blank" rel="noopener">Code</a></p>
-    </div>
-  </article>
-
-  <article class="faculty-paper">
     <div class="faculty-paper-teaser"><img src="{{ '/images/Lgrad.png' | relative_url }}" alt="LGrad"></div>
     <div class="faculty-paper-info">
       <h3>Learning on Gradients: Generalized Artifacts Representation for GAN-Generated Images Detection</h3>
@@ -91,6 +76,5 @@ author_profile: false
     </div>
   </article>
 </section>
-
 <footer class="faculty-footer">Last updated October 2026</footer>
 </div>
