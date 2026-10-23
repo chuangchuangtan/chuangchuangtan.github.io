@@ -73,26 +73,60 @@ author_profile: false
     <a class="section-link" href="/publications/">All publications <span>→</span></a>
   </div>
 
-  <div class="featured-papers">
-    <article class="featured-paper">
-      <div class="paper-meta"><span>ICLR</span><strong>2026</strong></div>
+  <article class="latest-feature">
+    <div class="latest-feature-copy">
+      <div class="latest-feature-meta"><span>ICLR 2026</span><span>Latest research direction</span></div>
       <h3>Semantic Visual Anomaly Detection and Reasoning in AI-Generated Images</h3>
-      <p>Semantic anomaly discovery and structured reasoning beyond binary AI-image detection.</p>
-      <div class="paper-actions"><a href="https://openreview.net/forum?id=0iN4UKZwgn" target="_blank" rel="noopener">Paper ↗</a><a href="https://github.com/chuangchuangtan/Semantic-Visual-Anomaly-Detection-and-Reasoning" target="_blank" rel="noopener">Code ↗</a></div>
+      <p>Moving beyond “is it AI-generated?” toward discovering <strong>what is semantically wrong</strong>, explaining <strong>why it is wrong</strong>, and assessing <strong>how severe the anomaly is</strong>.</p>
+      <div class="latest-feature-links">
+        <a href="https://openreview.net/forum?id=0iN4UKZwgn" target="_blank" rel="noopener">Paper ↗</a>
+        <a href="https://github.com/chuangchuangtan/Semantic-Visual-Anomaly-Detection-and-Reasoning" target="_blank" rel="noopener">Code ↗</a>
+      </div>
+    </div>
+    <div class="reasoning-visual" aria-label="AnomReason structured anomaly representation">
+      <div class="reasoning-visual-label">ANOMALY / STRUCTURE</div>
+      <div class="reasoning-cell reasoning-cell--wide"><span>01</span><strong>Observed</strong><p>What looks visually inconsistent?</p></div>
+      <div class="reasoning-cell"><span>02</span><strong>Reasoning</strong><p>Why does it violate logic, physics, or commonsense?</p></div>
+      <div class="reasoning-cell"><span>03</span><strong>Severity</strong><p>How strongly does the anomaly affect plausibility?</p></div>
+      <div class="reasoning-flow">visual evidence <b>→</b> structured explanation <b>→</b> trustworthy judgment</div>
+    </div>
+  </article>
+
+  <div class="visual-paper-grid">
+    <article class="visual-paper-card">
+      <a class="visual-paper-image" href="https://ojs.aaai.org/index.php/AAAI/article/view/32772" target="_blank" rel="noopener">
+        <img src="{{ '/images/C2P-CLIP.png' | relative_url }}" alt="C2P-CLIP teaser">
+      </a>
+      <div class="visual-paper-body">
+        <div class="visual-paper-meta"><span>AAAI 2025</span><span>Vision-Language</span></div>
+        <h3>C2P-CLIP</h3>
+        <p>Category-common prompting to strengthen CLIP generalization for deepfake detection.</p>
+        <div class="paper-actions"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/32772" target="_blank" rel="noopener">Paper ↗</a><a href="https://github.com/chuangchuangtan/C2P-CLIP-DeepfakeDetection" target="_blank" rel="noopener">Code ↗</a></div>
+      </div>
     </article>
 
-    <article class="featured-paper">
-      <div class="paper-meta"><span>CVPR</span><strong>2024</strong></div>
-      <h3>Rethinking the Up-Sampling Operations in CNN-Based Generative Network for Generalizable Deepfake Detection</h3>
-      <p>Neighboring pixel relationships induced by generator up-sampling as transferable forensic traces.</p>
-      <div class="paper-actions"><a href="https://openaccess.thecvf.com/content/CVPR2024/html/Tan_Rethinking_the_Up-Sampling_Operations_in_CNN-based_Generative_Network_for_Generalizable_CVPR_2024_paper.html" target="_blank" rel="noopener">Paper ↗</a><a href="https://github.com/chuangchuangtan/NPR-DeepfakeDetection" target="_blank" rel="noopener">Code ↗</a></div>
+    <article class="visual-paper-card">
+      <a class="visual-paper-image" href="https://openaccess.thecvf.com/content/CVPR2024/html/Tan_Rethinking_the_Up-Sampling_Operations_in_CNN-based_Generative_Network_for_Generalizable_CVPR_2024_paper.html" target="_blank" rel="noopener">
+        <img src="{{ '/images/NPR.png' | relative_url }}" alt="NPR teaser">
+      </a>
+      <div class="visual-paper-body">
+        <div class="visual-paper-meta"><span>CVPR 2024</span><span>Generator Priors</span></div>
+        <h3>NPR</h3>
+        <p>Neighboring pixel relationships induced by generator up-sampling as transferable forensic traces.</p>
+        <div class="paper-actions"><a href="https://openaccess.thecvf.com/content/CVPR2024/html/Tan_Rethinking_the_Up-Sampling_Operations_in_CNN-based_Generative_Network_for_Generalizable_CVPR_2024_paper.html" target="_blank" rel="noopener">Paper ↗</a><a href="https://github.com/chuangchuangtan/NPR-DeepfakeDetection" target="_blank" rel="noopener">Code ↗</a></div>
+      </div>
     </article>
 
-    <article class="featured-paper">
-      <div class="paper-meta"><span>CVPR</span><strong>2023</strong></div>
-      <h3>Learning on Gradients: Generalized Artifacts Representation for GAN-Generated Images Detection</h3>
-      <p>Image gradients as a generalized representation of artifacts produced by generative models.</p>
-      <div class="paper-actions"><a href="https://openaccess.thecvf.com/content/CVPR2023/html/Tan_Learning_on_Gradients_Generalized_Artifacts_Representation_for_GAN-Generated_Images_Detection_CVPR_2023_paper.html" target="_blank" rel="noopener">Paper ↗</a><a href="https://github.com/chuangchuangtan/LGrad" target="_blank" rel="noopener">Code ↗</a></div>
+    <article class="visual-paper-card">
+      <a class="visual-paper-image" href="https://openaccess.thecvf.com/content/CVPR2023/html/Tan_Learning_on_Gradients_Generalized_Artifacts_Representation_for_GAN-Generated_Images_Detection_CVPR_2023_paper.html" target="_blank" rel="noopener">
+        <img src="{{ '/images/Lgrad.png' | relative_url }}" alt="LGrad teaser">
+      </a>
+      <div class="visual-paper-body">
+        <div class="visual-paper-meta"><span>CVPR 2023</span><span>Gradient Evidence</span></div>
+        <h3>LGrad</h3>
+        <p>Image gradients as a generalized representation of artifacts produced by generative models.</p>
+        <div class="paper-actions"><a href="https://openaccess.thecvf.com/content/CVPR2023/html/Tan_Learning_on_Gradients_Generalized_Artifacts_Representation_for_GAN-Generated_Images_Detection_CVPR_2023_paper.html" target="_blank" rel="noopener">Paper ↗</a><a href="https://github.com/chuangchuangtan/LGrad" target="_blank" rel="noopener">Code ↗</a></div>
+      </div>
     </article>
   </div>
 </section>
