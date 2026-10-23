@@ -1,17 +1,13 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button aria-label="Toggle navigation"><div class="navicon"></div></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item">
-            <a href="{{ '/' | relative_url }}"><span class="nav-name">Chuangchuang Tan</span><span class="nav-name-cn">谭创创</span></a>
-          </li>
+      <nav id="site-nav" class="faculty-nav" aria-label="Primary navigation">
+        <a class="faculty-nav__brand" href="{{ '/' | relative_url }}"><span class="nav-name">Chuangchuang Tan</span><span class="nav-name-cn">谭创创</span></a>
+        <div class="faculty-nav__links">
           {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+            <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
           {% endfor %}
-        </ul>
-        <ul class="hidden-links hidden"></ul>
+        </div>
       </nav>
     </div>
   </div>
