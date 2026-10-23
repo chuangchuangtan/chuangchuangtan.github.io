@@ -4,77 +4,16 @@ title: ""
 excerpt: "Chuangchuang Tan — Lecturer at Beijing Jiaotong University. Research on trustworthy visual intelligence, AIGC forensics, and multimodal reasoning."
 author_profile: false
 ---
-
 <div class="faculty-home">
 <section class="faculty-intro">
-  <div class="faculty-photo"><img src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=ufR1PmMAAAAJ&citpid=1" alt="Chuangchuang Tan"></div>
-  <div class="faculty-bio">
-    <h1>Chuangchuang Tan <span>谭创创</span></h1>
-    <p class="faculty-position">Lecturer, School of Computer Science & Technology<br>Beijing Jiaotong University</p>
-    <p>I am a Lecturer at <a href="https://en.bjtu.edu.cn/" target="_blank" rel="noopener">Beijing Jiaotong University</a>. I received my Ph.D. from BJTU in 2025 under the supervision of Prof. Yao Zhao. I have also conducted research at A*STAR and Microsoft Research Asia.</p>
-    <p>My research focuses on <strong>trustworthy visual intelligence</strong>, with particular interests in AIGC and deepfake forensics, explainable multimodal reasoning, and agentic visual understanding.</p>
-    <p class="faculty-links"><a href="mailto:tanchuangchuang@bjtu.edu.cn">Email</a> · <a href="https://scholar.google.com/citations?user=ufR1PmMAAAAJ" target="_blank" rel="noopener">Google Scholar</a> · <a href="https://github.com/chuangchuangtan" target="_blank" rel="noopener">GitHub</a> · <a href="https://faculty.bjtu.edu.cn/98940429/" target="_blank" rel="noopener">BJTU Faculty</a></p>
-  </div>
+  <div class="faculty-photo"><img src="{{ '/images/profile.jpg' | relative_url }}" alt="Chuangchuang Tan"></div>
+  <div class="faculty-bio"><h1>Chuangchuang Tan <span>谭创创</span></h1><p class="faculty-position">Lecturer, School of Computer Science & Technology<br>Beijing Jiaotong University</p><p>I am a Lecturer at <a href="https://en.bjtu.edu.cn/" target="_blank" rel="noopener">Beijing Jiaotong University</a>. I received my Ph.D. from BJTU in 2025 under the supervision of Prof. Yao Zhao. I have also conducted research at A*STAR and Microsoft Research Asia.</p><p>My research focuses on <strong>trustworthy visual intelligence</strong>, with particular interests in AIGC and deepfake forensics, explainable multimodal reasoning, and agentic visual understanding.</p><p class="faculty-links"><a href="mailto:tanchuangchuang@bjtu.edu.cn">Email</a> · <a href="https://scholar.google.com/citations?user=ufR1PmMAAAAJ" target="_blank" rel="noopener">Google Scholar</a> · <a href="https://github.com/chuangchuangtan" target="_blank" rel="noopener">GitHub</a> · <a href="https://faculty.bjtu.edu.cn/98940429/" target="_blank" rel="noopener">BJTU Faculty</a></p></div>
 </section>
-
-<section class="faculty-section">
-  <h2>News</h2>
-  <div class="news-list">
-    <div><span>2026.10</span><p><strong>EviScene / EviLens</strong> released: moving from AI-origin detection toward image factuality assessment with external evidence.</p></div>
-    <div><span>2026</span><p><strong>AnomReason</strong> accepted to ICLR 2026.</p></div>
-    <div><span>2026</span><p><strong>ForenX</strong> studies explainable AI-generated image detection with multimodal large language models.</p></div>
-    <div><span>2025.06</span><p>Received my Ph.D. from Beijing Jiaotong University and an Outstanding Doctoral Dissertation award from BJTU.</p></div>
-  </div>
-</section>
-
-<section class="faculty-section">
-  <h2>Research Interests</h2>
-  <p class="interest-line">AIGC & Deepfake Forensics · Explainable AI · Multimodal Reasoning · Agentic AI · Trustworthy Visual Intelligence</p>
-  <p class="section-more"><a href="/research/">More about my research →</a></p>
-</section>
-
-<section class="faculty-section selected-publications">
-  <div class="section-heading-row"><h2>Selected Publications</h2><a href="/publications/">Full list →</a></div>
-
-  <article class="faculty-paper">
-    <div class="faculty-paper-teaser faculty-paper-teaser--text"><span>Semantic<br>Anomaly</span><small>Detection · Reasoning</small></div>
-    <div class="faculty-paper-info">
-      <h3>Semantic Visual Anomaly Detection and Reasoning in AI-Generated Images</h3>
-      <p class="paper-authors"><strong>Chuangchuang Tan</strong>, Xiang Ming, Jinglu Wang, Renshuai Tao, Bin Li, Yunchao Wei, Yao Zhao, Yan Lu</p>
-      <p class="paper-venue">ICLR 2026</p>
-      <p class="paper-links"><a href="https://openreview.net/forum?id=0iN4UKZwgn" target="_blank" rel="noopener">Paper</a> · <a href="https://github.com/chuangchuangtan/Semantic-Visual-Anomaly-Detection-and-Reasoning" target="_blank" rel="noopener">Code</a></p>
-    </div>
-  </article>
-
-  <article class="faculty-paper">
-    <div class="faculty-paper-teaser"><img src="{{ '/images/C2P-CLIP.png' | relative_url }}" alt="C2P-CLIP"></div>
-    <div class="faculty-paper-info">
-      <h3>C2P-CLIP: Injecting Category Common Prompt in CLIP to Enhance Generalization in Deepfake Detection</h3>
-      <p class="paper-authors"><strong>Chuangchuang Tan*</strong>, Renshuai Tao*, Huan Liu, Guanghua Gu, Baoyuan Wu, Yao Zhao, Yunchao Wei</p>
-      <p class="paper-venue">AAAI 2025</p>
-      <p class="paper-links"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/32772" target="_blank" rel="noopener">Paper</a> · <a href="https://github.com/chuangchuangtan/C2P-CLIP-DeepfakeDetection" target="_blank" rel="noopener">Code</a></p>
-    </div>
-  </article>
-
-  <article class="faculty-paper">
-    <div class="faculty-paper-teaser"><img src="{{ '/images/NPR.png' | relative_url }}" alt="NPR"></div>
-    <div class="faculty-paper-info">
-      <h3>Rethinking the Up-Sampling Operations in CNN-Based Generative Network for Generalizable Deepfake Detection</h3>
-      <p class="paper-authors"><strong>Chuangchuang Tan</strong>, Huan Liu, Yao Zhao, Shikui Wei, Guanghua Gu, Ping Liu, Yunchao Wei</p>
-      <p class="paper-venue">CVPR 2024</p>
-      <p class="paper-links"><a href="https://openaccess.thecvf.com/content/CVPR2024/html/Tan_Rethinking_the_Up-Sampling_Operations_in_CNN-based_Generative_Network_for_Generalizable_CVPR_2024_paper.html" target="_blank" rel="noopener">Paper</a> · <a href="https://github.com/chuangchuangtan/NPR-DeepfakeDetection" target="_blank" rel="noopener">Code</a> · <a href="https://huggingface.co/spaces/tancc/Generalizable_Deepfake_Detection-NPR-CVPR2024" target="_blank" rel="noopener">Demo</a></p>
-    </div>
-  </article>
-
-  <article class="faculty-paper">
-    <div class="faculty-paper-teaser"><img src="{{ '/images/Lgrad.png' | relative_url }}" alt="LGrad"></div>
-    <div class="faculty-paper-info">
-      <h3>Learning on Gradients: Generalized Artifacts Representation for GAN-Generated Images Detection</h3>
-      <p class="paper-authors"><strong>Chuangchuang Tan</strong>, Yao Zhao, Shikui Wei, Guanghua Gu, Yunchao Wei</p>
-      <p class="paper-venue">CVPR 2023</p>
-      <p class="paper-links"><a href="https://openaccess.thecvf.com/content/CVPR2023/html/Tan_Learning_on_Gradients_Generalized_Artifacts_Representation_for_GAN-Generated_Images_Detection_CVPR_2023_paper.html" target="_blank" rel="noopener">Paper</a> · <a href="https://github.com/chuangchuangtan/LGrad" target="_blank" rel="noopener">Code</a></p>
-    </div>
-  </article>
-</section>
-<footer class="faculty-footer">Last updated October 2026</footer>
-</div>
+<section class="faculty-section"><h2>News</h2><div class="news-list"><div><span>2026</span><p><strong>AnomReason</strong> accepted to ICLR 2026.</p></div><div><span>2026</span><p><strong>ForenX</strong> explores explainable AI-generated image detection with multimodal large language models.</p></div><div><span>2025.06</span><p>Received my Ph.D. from Beijing Jiaotong University and an Outstanding Doctoral Dissertation award from BJTU.</p></div></div></section>
+<section class="faculty-section"><h2>Research Interests</h2><p class="interest-line">AIGC & Deepfake Forensics · Explainable AI · Multimodal Reasoning · Agentic AI · Trustworthy Visual Intelligence</p><p class="section-more"><a href="{{ '/research/' | relative_url }}">More about my research →</a></p></section>
+<section class="faculty-section selected-publications"><div class="section-heading-row"><h2>Selected Publications</h2><a href="{{ '/publications/' | relative_url }}">Full list →</a></div>
+<article class="faculty-paper"><div class="faculty-paper-teaser faculty-paper-teaser--text"><span>Semantic<br>Anomaly</span><small>Detection · Reasoning</small></div><div class="faculty-paper-info"><h3>Semantic Visual Anomaly Detection and Reasoning in AI-Generated Images</h3><p class="paper-authors"><strong>Chuangchuang Tan</strong>, Xiang Ming, Jinglu Wang, Renshuai Tao, Bin Li, Yunchao Wei, Yao Zhao, Yan Lu</p><p class="paper-venue">ICLR 2026</p><p class="paper-links"><a href="https://openreview.net/forum?id=0iN4UKZwgn" target="_blank" rel="noopener">Paper</a> · <a href="https://github.com/chuangchuangtan/Semantic-Visual-Anomaly-Detection-and-Reasoning" target="_blank" rel="noopener">Code</a></p></div></article>
+<article class="faculty-paper"><div class="faculty-paper-teaser"><img src="{{ '/images/C2P-CLIP.png' | relative_url }}" alt="C2P-CLIP"></div><div class="faculty-paper-info"><h3>C2P-CLIP: Injecting Category Common Prompt in CLIP to Enhance Generalization in Deepfake Detection</h3><p class="paper-authors"><strong>Chuangchuang Tan*</strong>, Renshuai Tao*, Huan Liu, Guanghua Gu, Baoyuan Wu, Yao Zhao, Yunchao Wei</p><p class="paper-venue">AAAI 2025</p><p class="paper-links"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/32772" target="_blank" rel="noopener">Paper</a> · <a href="https://github.com/chuangchuangtan/C2P-CLIP-DeepfakeDetection" target="_blank" rel="noopener">Code</a></p></div></article>
+<article class="faculty-paper"><div class="faculty-paper-teaser"><img src="{{ '/images/NPR.png' | relative_url }}" alt="NPR"></div><div class="faculty-paper-info"><h3>Rethinking the Up-Sampling Operations in CNN-Based Generative Network for Generalizable Deepfake Detection</h3><p class="paper-authors"><strong>Chuangchuang Tan</strong>, Huan Liu, Yao Zhao, Shikui Wei, Guanghua Gu, Ping Liu, Yunchao Wei</p><p class="paper-venue">CVPR 2024</p><p class="paper-links"><a href="https://openaccess.thecvf.com/content/CVPR2024/html/Tan_Rethinking_the_Up-Sampling_Operations_in_CNN-based_Generative_Network_for_Generalizable_CVPR_2024_paper.html" target="_blank" rel="noopener">Paper</a> · <a href="https://github.com/chuangchuangtan/NPR-DeepfakeDetection" target="_blank" rel="noopener">Code</a> · <a href="https://huggingface.co/spaces/tancc/Generalizable_Deepfake_Detection-NPR-CVPR2024" target="_blank" rel="noopener">Demo</a></p></div></article>
+<article class="faculty-paper"><div class="faculty-paper-teaser"><img src="{{ '/images/Lgrad.png' | relative_url }}" alt="LGrad"></div><div class="faculty-paper-info"><h3>Learning on Gradients: Generalized Artifacts Representation for GAN-Generated Images Detection</h3><p class="paper-authors"><strong>Chuangchuang Tan</strong>, Yao Zhao, Shikui Wei, Guanghua Gu, Yunchao Wei</p><p class="paper-venue">CVPR 2023</p><p class="paper-links"><a href="https://openaccess.thecvf.com/content/CVPR2023/html/Tan_Learning_on_Gradients_Generalized_Artifacts_Representation_for_GAN-Generated_Images_Detection_CVPR_2023_paper.html" target="_blank" rel="noopener">Paper</a> · <a href="https://github.com/chuangchuangtan/LGrad" target="_blank" rel="noopener">Code</a></p></div></article>
+</section><footer class="faculty-footer">Last updated October 2026</footer></div>
