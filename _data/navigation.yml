@@ -3,5 +3,7 @@ main:
     url: "/research/"
   - title: "Publications"
     url: "/publications/"
+  - title: "Research Style"
+    url: "/research-style/"
   - title: "Profile"
     url: "/profile/"
