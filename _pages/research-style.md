@@ -14,7 +14,7 @@ author_profile: false
 
 <div class="rs-overview">
   <div class="rs-overview-step"><span>01</span><strong>Back to the Task</strong><small class="lang-zh">回到任务本身</small><small class="lang-en">Return to the source</small></div><div class="rs-arrow">→</div>
-  <div class="rs-overview-step"><span>02</span><strong>Long-term Vision</strong><small class="lang-zh">想清楚理想形态</small><small class="lang-en">Imagine the ideal task</small></div><div class="rs-arrow">→</div>
+  <div class="rs-overview-step"><span>02</span><strong>Long-term Vision</strong><small class="lang-zh">提出清晰的理想愿景</small><small class="lang-en">Define the ideal destination</small></div><div class="rs-arrow">→</div>
   <div class="rs-overview-step"><span>03</span><strong>Define the Problem</strong><small class="lang-zh">定义具体问题</small><small class="lang-en">Make the question precise</small></div><div class="rs-arrow">→</div>
   <div class="rs-overview-step"><span>04</span><strong>Derive the Method</strong><small class="lang-zh">由问题推导方法</small><small class="lang-en">Let the problem constrain the solution</small></div>
 </div>
@@ -38,8 +38,11 @@ author_profile: false
 
   <div class="rs-vision">
     <div class="rs-vision-label">VISION</div><div class="rs-vision-main">
-      <h3 class="lang-zh">回到任务之后，先问：理想情况下它最终应该是什么样？</h3><h3 class="lang-en">Once back at the task, ask: what should its ideal form ultimately look like?</h3>
-      <div class="rs-inline-flow"><span class="lang-zh">任务本身</span><span class="lang-en">Task</span><b>→</b><span>Ideal Form</span><b>→</b><span>Today</span><b>→</b><span class="accent">Gap</span><b>→</b><span class="accent">Problem</span></div>
+      <h3 class="lang-zh">回到任务的一个简单高效的方式，是为任务提出一个清晰、明了的理想愿景。</h3>
+      <h3 class="lang-en">A simple and effective way to return to the task is to formulate a clear, explicit vision of its ideal form.</h3>
+      <p class="rs-vision-copy lang-zh">当我们知道理想情况应该是什么样，就可以从终点向今天倒推：<strong>哪些还没有做好？差距在哪里？现在最应该解决什么？</strong></p>
+      <p class="rs-vision-copy lang-en">Once the ideal destination is clear, we can reason backward to the present: <strong>What is still missing? Where is the gap? What should we solve now?</strong></p>
+      <div class="rs-inline-flow"><span class="lang-zh">任务本身</span><span class="lang-en">Task</span><b>→</b><span>Ideal Vision</span><b>→</b><span>Work Backward</span><b>→</b><span class="accent">Gap</span><b>→</b><span class="accent">What to Do Now</span></div>
     </div>
   </div>
 
@@ -47,11 +50,11 @@ author_profile: false
     <figcaption><b>Example · AIGC Forensics</b><span class="lang-zh">从今天的任务定义，看向真正的远期目标</span><span class="lang-en">From today's formulation to the long-term vision</span></figcaption>
     <div class="aigc-diagram">
       <div class="aigc-side today"><small>TODAY</small><div class="image-icon">▧</div><strong>Image</strong><b>↓</b><span>Detector</span><b>↓</b><em>Real / Fake</em><p class="lang-zh">把二分类做得更准</p><p class="lang-en">Improve binary detection</p></div>
-      <div class="aigc-gap"><span>GAP</span><b>→</b><small class="lang-zh">重新审视任务</small><small class="lang-en">Rethink the task</small></div>
+      <div class="aigc-gap"><span>GAP</span><b>→</b><small class="lang-zh">从理想愿景倒推</small><small class="lang-en">Work backward from the vision</small></div>
       <div class="aigc-side ideal"><small>LONG-TERM VISION</small><div class="image-icon">▧</div><strong>Image</strong><b>↓</b><div class="aigc-branches"><span>Source<small class="lang-zh">来源</small></span><span>Anomaly<small class="lang-zh">异常</small></span><span>Location<small class="lang-zh">位置</small></span></div><b>↓</b><em>What? · Where? · Why?</em><p class="lang-zh">判断 + 定位 + 解释 + 证据</p><p class="lang-en">Detection + localization + explanation + evidence</p></div>
     </div>
-    <p class="rs-figure-note lang-zh">远期愿景不是答案，而是一把尺子：它让我们看见“今天”与“理想情况”之间真正值得研究的 Gap。</p>
-    <p class="rs-figure-note lang-en">A long-term vision is not an answer; it is a ruler that exposes the research gap between today's formulation and the task's ideal form.</p>
+    <p class="rs-figure-note lang-zh">先把理想终点说清楚，再向今天倒推。这样，研究问题来自<strong>理想愿景与当前能力之间的差距</strong>，而不是来自“还能换什么方法”。</p>
+    <p class="rs-figure-note lang-en">Make the ideal destination explicit, then reason backward. Research problems emerge from the <strong>gap between the vision and current capability</strong>, rather than from asking what method to try next.</p>
   </figure>
 </section>
 
@@ -87,8 +90,24 @@ author_profile: false
   <blockquote class="rs-quote"><span class="lang-zh">问题定义得越清楚，方法越不是“想出来”的，而是“推出来”的。</span><span class="lang-en">The clearer the problem, the less the method is “invented” and the more it is “derived.”</span><small>A well-defined problem constrains its solution.</small></blockquote>
 </section>
 
-<section class="rs-summary"><h2 class="lang-zh">我的研究路径</h2><h2 class="lang-en">My Research Path</h2><div class="rs-final-flow"><span>Back to the Task</span><b>→</b><span>Long-term Vision</span><b>→</b><span>Gap</span><b>→</b><span>Phenomenon</span><b>→</b><span>Elements & Properties</span><b>→</b><span class="accent">Define the Problem</span><b>→</b><span class="accent">Derive the Method</span><b>→</b><span>Evidence</span></div><p><strong>Back to the Task.</strong> Define the Problem. Derive the Method.</p></section>
+<section class="rs-summary"><h2 class="lang-zh">我的研究路径</h2><h2 class="lang-en">My Research Path</h2><div class="rs-final-flow"><span>Back to the Task</span><b>→</b><span>Long-term Vision</span><b>→</b><span>Work Backward</span><b>→</b><span>Gap</span><b>→</b><span class="accent">Define the Problem</span><b>→</b><span class="accent">Derive the Method</span><b>→</b><span>Evidence</span></div><p><strong>Back to the Task.</strong> Define the Problem. Derive the Method.</p></section>
 </div>
+
+<style>
+/* Page-local layout fixes: neutralize theme figure floats and preserve inline language nodes. */
+.research-style-page figure.rs-figure{display:block!important;float:none!important;clear:both!important;width:100%!important;max-width:none!important;box-sizing:border-box!important;margin-left:0!important;margin-right:0!important}
+.research-style-page figure.rs-figure>figcaption{display:flex!important;width:100%!important;max-width:none!important;box-sizing:border-box!important;float:none!important;text-align:left!important}
+.research-style-page figure.rs-figure>div,.research-style-page figure.rs-figure>p{width:100%;max-width:none;box-sizing:border-box}
+.research-style-page .lang-en{display:none!important}
+.research-style-page[data-lang="en"] .lang-zh{display:none!important}
+.research-style-page[data-lang="en"] .lang-en{display:revert!important}
+.research-style-page .rs-source-line{width:100%;justify-content:space-between}
+.research-style-page .source-node{min-height:96px;display:flex;flex-direction:column;justify-content:center}
+.research-style-page .aigc-diagram{width:100%;grid-template-columns:minmax(0,.82fr) 110px minmax(0,1.18fr)}
+.research-style-page .tree-diagram{width:100%;max-width:820px!important;margin:0 auto}
+.research-style-page .rs-vision-copy{margin:9px 0 0!important;color:#555;font-size:.82rem!important;line-height:1.65}
+@media(max-width:700px){.research-style-page figure.rs-figure>figcaption{display:block!important}.research-style-page .aigc-diagram{grid-template-columns:1fr}.research-style-page .source-node{min-height:auto}}
+</style>
 
 <script>
 (function(){
