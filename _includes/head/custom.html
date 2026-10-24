@@ -18,4 +18,19 @@
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML" async></script>
 
+<style>
+.rs-playbook-entry{margin-top:24px;text-align:right;font-size:.68rem;letter-spacing:.02em}.rs-playbook-entry a{color:#9aa3aa!important;text-decoration:none!important;border-bottom:1px solid #d9dde0;padding-bottom:1px}.rs-playbook-entry a:hover{color:#1769aa!important;border-bottom-color:#1769aa}
+</style>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+  if(window.location.pathname.replace(/\/+$/,'')!='/research-style') return;
+  var target=document.querySelector('.research-style-page .rs-summary') || document.querySelector('.research-style-page');
+  if(!target || document.querySelector('.rs-playbook-entry')) return;
+  var p=document.createElement('p');
+  p.className='rs-playbook-entry';
+  p.innerHTML='<a href="{{ "/research-playbook/" | relative_url }}">compact / shareable version →</a>';
+  target.appendChild(p);
+});
+</script>
+
 <!-- end custom head snippets -->
