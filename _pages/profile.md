@@ -43,7 +43,7 @@ author_profile: false
   <div class="profile-clean-list">
     <div><time>2026</time><p><strong>Postdoctoral Innovative Talent Support Program</strong></p></div>
     <div><time>2025</time><p><strong>Outstanding Doctoral Dissertation, Beijing Jiaotong University</strong></p></div>
-    <div><time>2025</time><p><strong>Outstanding Doctoral Dissertation, Beijing Society for Graphics and Image</strong></p></div>
+    <div><time>2025</time><p><strong>Outstanding Doctoral Dissertation, Beijing Society of Image and Graphics (BSIG)</strong></p></div>
     <div><time>2024–2025</time><p><strong>Microsoft Research Asia · Star of Tomorrow</strong></p></div>
     <div><time>2024</time><p><strong>National Scholarship</strong></p></div>
     <div><time>2020</time><p><strong>National Scholarship</strong></p></div>
