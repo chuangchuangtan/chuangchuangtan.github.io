@@ -1,108 +1,101 @@
 ---
 permalink: /research-style/
 title: "Research Style"
-excerpt: "How I think about research: back to the task, define the problem, derive the method."
+excerpt: "Back to the task. Define the problem, derive the method."
 author_profile: false
 ---
 
-<div class="faculty-subpage research-style-page">
+<div class="faculty-subpage research-style-page" id="research-style-page">
 <header class="clean-page-header rs-header">
-  <h1>Research Style</h1>
-  <p>我的科研思路可以归结为两个问题：<strong>好问题从哪里来？</strong>以及<strong>问题确定以后，方法从哪里来？</strong></p>
+  <div class="rs-title-row"><h1>Research Style</h1><div class="rs-lang-switch" role="group" aria-label="Language"><button type="button" class="active" data-lang="zh">中文</button><button type="button" data-lang="en">EN</button></div></div>
+  <p class="lang-zh">我的科研思路主要回答两个问题：<strong>好问题从哪里来？问题确定以后，方法从哪里来？</strong></p>
+  <p class="lang-en">My research style centers on two questions: <strong>Where does a good problem come from, and how should the method follow once the problem is defined?</strong></p>
 </header>
 
-<div class="rs-overview" aria-label="Research style overview">
-  <div class="rs-overview-step"><span>01</span><strong>Back to the Task</strong><small>回到任务本身</small></div>
-  <div class="rs-arrow">→</div>
-  <div class="rs-overview-step"><span>02</span><strong>Long-term Vision</strong><small>想清楚理想形态</small></div>
-  <div class="rs-arrow">→</div>
-  <div class="rs-overview-step"><span>03</span><strong>Define the Problem</strong><small>定义真正的问题</small></div>
-  <div class="rs-arrow">→</div>
-  <div class="rs-overview-step"><span>04</span><strong>Derive the Method</strong><small>由问题推导方法</small></div>
+<div class="rs-overview">
+  <div class="rs-overview-step"><span>01</span><strong>Back to the Task</strong><small class="lang-zh">回到任务本身</small><small class="lang-en">Return to the source</small></div><div class="rs-arrow">→</div>
+  <div class="rs-overview-step"><span>02</span><strong>Long-term Vision</strong><small class="lang-zh">想清楚理想形态</small><small class="lang-en">Imagine the ideal task</small></div><div class="rs-arrow">→</div>
+  <div class="rs-overview-step"><span>03</span><strong>Define the Problem</strong><small class="lang-zh">定义具体问题</small><small class="lang-en">Make the question precise</small></div><div class="rs-arrow">→</div>
+  <div class="rs-overview-step"><span>04</span><strong>Derive the Method</strong><small class="lang-zh">由问题推导方法</small><small class="lang-en">Let the problem constrain the solution</small></div>
 </div>
 
 <section class="rs-section">
-  <div class="rs-section-head"><span>01</span><div><h2>紧盯一手资料</h2><p>Back to the Task</p></div></div>
-  <p class="rs-lead">信息传播会带来信息衰减。论文越读越多时，尤其需要穿过已有工作的层层解释，重新回到<strong>任务本身</strong>。</p>
+  <div class="rs-section-head"><span>01</span><div><h2 class="lang-zh">紧盯一手资料</h2><h2 class="lang-en">Back to the Task</h2><p>Back to the Task</p></div></div>
+  <p class="rs-lead lang-zh">信息传播会带来<strong>信息衰减</strong>。研究不能只停留在别人对任务的解释上，而要穿过论文、综述和总结，重新回到<strong>任务本身</strong>。</p>
+  <p class="rs-lead lang-en">Information decays as it propagates. Research should not stop at other people's interpretations of a task; it should trace through papers, surveys, and summaries and return to <strong>the task itself</strong>.</p>
 
-  <div class="rs-decay">
-    <div class="rs-decay-title">信息传播 <span>Information propagation</span></div>
-    <div class="rs-decay-track">
-      <div class="rs-source"><b>任务本身</b><small>Task itself</small><i style="--w:100%"></i></div>
-      <div><b>开坑之作</b><small>Pioneering work</small><i style="--w:82%"></i></div>
-      <div><b>后续论文</b><small>Follow-up works</small><i style="--w:63%"></i></div>
-      <div><b>综述 / 教程</b><small>Survey / Tutorial</small><i style="--w:43%"></i></div>
-      <div><b>博客 / PPT</b><small>Summary</small><i style="--w:24%"></i></div>
+  <figure class="rs-figure rs-source-figure">
+    <figcaption><b class="lang-zh">信息传播与衰减</b><b class="lang-en">Information propagation and decay</b><span>Closer to the source → higher task fidelity</span></figcaption>
+    <div class="rs-source-line">
+      <div class="source-node primary"><i>100%</i><strong class="lang-zh">任务本身</strong><strong class="lang-en">Task itself</strong><small>Source</small></div><b>→</b>
+      <div class="source-node"><i>82%</i><strong class="lang-zh">开坑之作</strong><strong class="lang-en">Pioneering work</strong><small>1st interpretation</small></div><b>→</b>
+      <div class="source-node"><i>63%</i><strong class="lang-zh">后续论文</strong><strong class="lang-en">Follow-up works</strong><small>Refinement</small></div><b>→</b>
+      <div class="source-node"><i>43%</i><strong>Survey</strong><small>Abstraction</small></div><b>→</b>
+      <div class="source-node"><i>24%</i><strong>Blog / PPT</strong><small>Summary</small></div>
     </div>
-    <p>越接近源头，越接近任务原本的动机、约束与尚未解决的问题。</p>
-  </div>
-
-  <div class="rs-contrast">
-    <div class="rs-muted-box"><span>容易陷入</span><strong>沿着已有方法继续优化</strong><p>Method A → Method B → Method C → +1%</p></div>
-    <div class="rs-vs">VS</div>
-    <div class="rs-focus-box"><span>我更关注</span><strong>回到任务，先想理想情况</strong><p>Why this task? → Ideal form → Gap → New problem</p></div>
-  </div>
+    <div class="rs-source-message lang-zh">资料越多，越要回到源头。</div><div class="rs-source-message lang-en">The more information we have, the more important it is to return to the source.</div>
+  </figure>
 
   <div class="rs-vision">
-    <div class="rs-vision-label">关键动作</div>
-    <div class="rs-vision-main">
-      <h3>先定义这个任务的远期愿景</h3>
-      <p>暂时放下现有方法，问一个更直接的问题：<strong>如果这个任务最终被真正解决，它理想情况下应该发展成什么样？</strong></p>
-      <div class="rs-inline-flow"><span>任务本身</span><b>→</b><span>理想形态</span><b>→</b><span>今天的能力</span><b>→</b><span class="accent">Gap</span><b>→</b><span class="accent">新问题</span></div>
+    <div class="rs-vision-label">VISION</div><div class="rs-vision-main">
+      <h3 class="lang-zh">回到任务之后，先问：理想情况下它最终应该是什么样？</h3><h3 class="lang-en">Once back at the task, ask: what should its ideal form ultimately look like?</h3>
+      <div class="rs-inline-flow"><span class="lang-zh">任务本身</span><span class="lang-en">Task</span><b>→</b><span>Ideal Form</span><b>→</b><span>Today</span><b>→</b><span class="accent">Gap</span><b>→</b><span class="accent">Problem</span></div>
     </div>
   </div>
 
-  <div class="rs-example">
-    <div class="rs-example-label">Example · AIGC Forensics</div>
-    <h3>从 “Real or Fake?” 回到任务真正想解决什么</h3>
-    <div class="rs-example-grid">
-      <div class="rs-today"><small>Today's formulation</small><strong>Image → Real / Fake</strong><p>不断提高检测准确率与泛化能力。</p></div>
-      <div class="rs-gap-arrow">→</div>
-      <div class="rs-ideal"><small>Long-term vision</small><strong>What? · Where? · Why?</strong><p>不仅判断来源，还要指出异常、位置、原因与可解释证据。</p></div>
+  <figure class="rs-figure rs-aigc-figure">
+    <figcaption><b>Example · AIGC Forensics</b><span class="lang-zh">从今天的任务定义，看向真正的远期目标</span><span class="lang-en">From today's formulation to the long-term vision</span></figcaption>
+    <div class="aigc-diagram">
+      <div class="aigc-side today"><small>TODAY</small><div class="image-icon">▧</div><strong>Image</strong><b>↓</b><span>Detector</span><b>↓</b><em>Real / Fake</em><p class="lang-zh">把二分类做得更准</p><p class="lang-en">Improve binary detection</p></div>
+      <div class="aigc-gap"><span>GAP</span><b>→</b><small class="lang-zh">重新审视任务</small><small class="lang-en">Rethink the task</small></div>
+      <div class="aigc-side ideal"><small>LONG-TERM VISION</small><div class="image-icon">▧</div><strong>Image</strong><b>↓</b><div class="aigc-branches"><span>Source<small class="lang-zh">来源</small></span><span>Anomaly<small class="lang-zh">异常</small></span><span>Location<small class="lang-zh">位置</small></span></div><b>↓</b><em>What? · Where? · Why?</em><p class="lang-zh">判断 + 定位 + 解释 + 证据</p><p class="lang-en">Detection + localization + explanation + evidence</p></div>
     </div>
-    <p class="rs-takeaway">远期愿景不是答案，而是一把尺子：<strong>它让我们看见“今天”与“理想情况”之间真正值得研究的 Gap。</strong></p>
-  </div>
+    <p class="rs-figure-note lang-zh">远期愿景不是答案，而是一把尺子：它让我们看见“今天”与“理想情况”之间真正值得研究的 Gap。</p>
+    <p class="rs-figure-note lang-en">A long-term vision is not an answer; it is a ruler that exposes the research gap between today's formulation and the task's ideal form.</p>
+  </figure>
 </section>
 
 <section class="rs-section">
-  <div class="rs-section-head"><span>02</span><div><h2>现象、问题与方法</h2><p>Define the Problem, Derive the Method</p></div></div>
+  <div class="rs-section-head"><span>02</span><div><h2 class="lang-zh">现象、问题与方法</h2><h2 class="lang-en">Phenomenon, Problem, and Method</h2><p>Define the Problem, Derive the Method</p></div></div>
   <div class="rs-big-claim"><span>Problem</span><b>&gt;</b><span>Method</span></div>
-  <p class="rs-lead">现象不是问题。先从现象中拆出<strong>元素</strong>，研究元素的<strong>特性</strong>，才能定义一个具体问题。问题一旦定义清楚，方法就不应该是随意选择的。</p>
+  <p class="rs-lead lang-zh"><strong>现象不是问题。</strong>先拆出元素，再研究元素的特性，才能把现象收敛成一个具体问题。问题一旦足够清楚，就会对解空间施加强约束，方法因此可以从问题中被“推导”出来。</p>
+  <p class="rs-lead lang-en"><strong>A phenomenon is not a problem.</strong> Decompose the phenomenon into elements and properties, then narrow it into a precise question. A well-defined problem strongly constrains the solution space, allowing the method to be derived rather than arbitrarily chosen.</p>
 
-  <div class="rs-problem-flow">
-    <div><span>01</span><strong>现象</strong><small>Phenomenon</small><em>发生了什么？</em></div><b>→</b>
-    <div><span>02</span><strong>元素</strong><small>Elements</small><em>谁参与其中？</em></div><b>→</b>
-    <div><span>03</span><strong>特性</strong><small>Properties</small><em>什么在起作用？</em></div><b>→</b>
-    <div class="key"><span>04</span><strong>问题</strong><small>Problem</small><em>到底要回答什么？</em></div><b>→</b>
-    <div class="key"><span>05</span><strong>方法</strong><small>Method</small><em>如何解决这个问题？</em></div>
-  </div>
+  <div class="rs-problem-flow"><div><span>01</span><strong class="lang-zh">现象</strong><strong class="lang-en">Phenomenon</strong><small>What happened?</small></div><b>→</b><div><span>02</span><strong class="lang-zh">元素</strong><strong class="lang-en">Elements</strong><small>What is involved?</small></div><b>→</b><div><span>03</span><strong class="lang-zh">特性</strong><strong class="lang-en">Properties</strong><small>What matters?</small></div><b>→</b><div class="key"><span>04</span><strong class="lang-zh">问题</strong><strong class="lang-en">Problem</strong><small>What exactly to answer?</small></div><b>→</b><div class="key"><span>05</span><strong class="lang-zh">方法</strong><strong class="lang-en">Method</strong><small>How to answer it?</small></div></div>
 
-  <div class="rs-example rs-tree-example">
-    <div class="rs-example-label">Intuitive Example</div>
-    <h3>“树叶落了”只是现象，不是问题</h3>
-    <div class="rs-tree-root">🍂 <strong>现象：树叶落了</strong></div>
-    <div class="rs-tree-elements"><span>树</span><span>叶子</span><span>环境</span><span>时间</span></div>
-    <div class="rs-tree-properties"><span>水分</span><span>温度</span><span>光照</span><span>季节</span></div>
-    <div class="rs-branches">
-      <div><small>具体问题 A</small><strong>是否由缺水导致？</strong><span>↓</span><p>控制其他变量，改变浇水量</p></div>
-      <div><small>具体问题 B</small><strong>是否由低温导致？</strong><span>↓</span><p>控制其他变量，改变温度</p></div>
-      <div><small>具体问题 C</small><strong>是否由光照不足导致？</strong><span>↓</span><p>控制其他变量，改变光照</p></div>
+  <figure class="rs-figure rs-tree-figure">
+    <figcaption><b class="lang-zh">直观例子 · “树叶落了”只是现象</b><b class="lang-en">Intuitive example · “Leaves are falling” is only a phenomenon</b><span>Define the Problem → Derive the Method</span></figcaption>
+    <div class="tree-diagram">
+      <div class="tree-phenomenon"><div class="tree-symbol">🍂</div><strong class="lang-zh">树叶落了</strong><strong class="lang-en">Leaves are falling</strong><small>PHENOMENON ≠ PROBLEM</small></div>
+      <div class="tree-down">↓</div>
+      <div class="tree-factors"><span>🌳 <b class="lang-zh">树</b><b class="lang-en">Tree</b></span><span>🍃 <b class="lang-zh">叶</b><b class="lang-en">Leaf</b></span><span>🌦 <b class="lang-zh">环境</b><b class="lang-en">Environment</b></span><span>◷ <b class="lang-zh">时间</b><b class="lang-en">Time</b></span></div>
+      <div class="tree-down">↓ <small>PROPERTIES</small></div>
+      <div class="tree-properties"><span>💧 <b class="lang-zh">水分</b><b class="lang-en">Water</b></span><span>🌡 <b class="lang-zh">温度</b><b class="lang-en">Temperature</b></span><span>☀ <b class="lang-zh">光照</b><b class="lang-en">Light</b></span></div>
+      <div class="tree-down key-arrow">↓ <small>DEFINE THE PROBLEM</small></div>
+      <div class="tree-hypotheses">
+        <div><small>PROBLEM A</small><strong class="lang-zh">是否由缺水导致？</strong><strong class="lang-en">Is water deficiency the cause?</strong><b>↓</b><span class="lang-zh">改变浇水量</span><span class="lang-en">Vary water supply</span><em>METHOD A</em></div>
+        <div><small>PROBLEM B</small><strong class="lang-zh">是否由低温导致？</strong><strong class="lang-en">Is low temperature the cause?</strong><b>↓</b><span class="lang-zh">改变温度</span><span class="lang-en">Vary temperature</span><em>METHOD B</em></div>
+        <div><small>PROBLEM C</small><strong class="lang-zh">是否由光照不足导致？</strong><strong class="lang-en">Is insufficient light the cause?</strong><b>↓</b><span class="lang-zh">改变光照</span><span class="lang-en">Vary illumination</span><em>METHOD C</em></div>
+      </div>
     </div>
-    <p class="rs-takeaway"><strong>不是现象决定方法，而是问题决定方法。</strong> 同一个现象可以产生不同问题，而每一个被清晰定义的问题，都对应着自己的解决路径。</p>
-  </div>
+    <p class="rs-figure-note lang-zh"><strong>同一个现象可以对应多个问题；不同的问题自然导出不同的方法。</strong>不是“树叶落了，所以设计一个方法”，而是先明确“为什么落”。</p>
+    <p class="rs-figure-note lang-en"><strong>The same phenomenon can lead to different problems, and different problems naturally imply different methods.</strong> Do not start by inventing a method for falling leaves; first define what cause you are testing.</p>
+  </figure>
 
-  <div class="rs-derive">
-    <div class="rs-method-first"><small>Method First</small><p>看到现象</p><b>↓</b><p>加 Attention？换 Backbone？加 Agent？</p><b>↓</b><p>哪个有效用哪个</p></div>
-    <div class="rs-derive-center"><span>Define the Problem</span><b>↓</b><strong>约束解空间</strong><b>↓</b><span>Derive the Method</span></div>
-    <div class="rs-problem-first"><small>Problem First</small><p>现象 → 元素 → 特性</p><b>↓</b><p><strong>定义具体问题</strong></p><b>↓</b><p>方法由问题自然推出</p></div>
-  </div>
+  <div class="rs-derive"><div class="rs-method-first"><small>METHOD FIRST</small><p class="lang-zh">看到现象 → Attention？Agent？新 Loss？</p><p class="lang-en">Phenomenon → Attention? Agent? New loss?</p><b>↓</b><p class="lang-zh">哪个有效用哪个</p><p class="lang-en">Keep whatever works</p></div><div class="rs-derive-center"><span>DEFINE</span><b>↓</b><strong class="lang-zh">问题约束解空间</strong><strong class="lang-en">Problem constrains solution space</strong><b>↓</b><span>DERIVE</span></div><div class="rs-problem-first"><small>PROBLEM FIRST</small><p>Phenomenon → Elements → Properties</p><b>↓</b><p><strong>Problem → Method</strong></p></div></div>
 
-  <blockquote class="rs-quote">问题定义得越清楚，方法越不是“想出来”的，而是“推出来”的。<small>A well-defined problem constrains its solution.</small></blockquote>
+  <blockquote class="rs-quote"><span class="lang-zh">问题定义得越清楚，方法越不是“想出来”的，而是“推出来”的。</span><span class="lang-en">The clearer the problem, the less the method is “invented” and the more it is “derived.”</span><small>A well-defined problem constrains its solution.</small></blockquote>
 </section>
 
-<section class="rs-summary">
-  <h2>我的研究路径</h2>
-  <div class="rs-final-flow"><span>回到任务</span><b>→</b><span>远期愿景</span><b>→</b><span>发现 Gap</span><b>→</b><span>现象</span><b>→</b><span>元素与特性</span><b>→</b><span class="accent">定义问题</span><b>→</b><span class="accent">推导方法</span><b>→</b><span>证据</span></div>
-  <p><strong>Back to the Task.</strong> Define the Problem. Derive the Method.</p>
-</section>
+<section class="rs-summary"><h2 class="lang-zh">我的研究路径</h2><h2 class="lang-en">My Research Path</h2><div class="rs-final-flow"><span>Back to the Task</span><b>→</b><span>Long-term Vision</span><b>→</b><span>Gap</span><b>→</b><span>Phenomenon</span><b>→</b><span>Elements & Properties</span><b>→</b><span class="accent">Define the Problem</span><b>→</b><span class="accent">Derive the Method</span><b>→</b><span>Evidence</span></div><p><strong>Back to the Task.</strong> Define the Problem. Derive the Method.</p></section>
 </div>
+
+<script>
+(function(){
+  var page=document.getElementById('research-style-page'); if(!page) return;
+  var buttons=page.querySelectorAll('.rs-lang-switch button');
+  function setLang(lang){page.setAttribute('data-lang',lang);buttons.forEach(function(b){b.classList.toggle('active',b.getAttribute('data-lang')===lang);});try{localStorage.setItem('research-style-lang',lang);}catch(e){}}
+  buttons.forEach(function(b){b.addEventListener('click',function(){setLang(b.getAttribute('data-lang'));});});
+  var saved='zh';try{saved=localStorage.getItem('research-style-lang')||'zh';}catch(e){}setLang(saved);
+})();
+</script>
