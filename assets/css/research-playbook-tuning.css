@@ -1,0 +1,31 @@
+/* Research Playbook readability refinements */
+/* Keep the two comparison flows truly horizontal and make them readable at a glance. */
+.playbook-page .playbook-principle-body>p{font-size:1.04rem!important;line-height:1.8!important;max-width:900px!important}
+.playbook-page .playbook-split{gap:24px!important;margin:34px 0!important}
+.playbook-page .playbook-deadend,.playbook-page .playbook-better{padding:30px 28px!important;min-height:190px;display:flex;flex-direction:column;justify-content:center}
+.playbook-page .playbook-split>div>small{font-size:.82rem!important;letter-spacing:.02em}
+.playbook-page .paper-stack,.playbook-page .vision-stack{display:flex!important;flex-direction:row!important;flex-wrap:nowrap!important;align-items:center!important;justify-content:center!important;gap:10px!important;margin:24px 0 20px!important}
+.playbook-page .paper-stack i,.playbook-page .vision-stack i{display:flex;align-items:center;justify-content:center;min-height:52px;min-width:82px;padding:10px 12px!important;font-size:.84rem!important;line-height:1.25!important;font-weight:550}
+.playbook-page .vision-stack i{min-width:96px}
+.playbook-page .paper-stack b,.playbook-page .vision-stack b{font-size:0!important;line-height:1!important;color:#9aa5ad!important;flex:0 0 auto}
+.playbook-page .paper-stack b::before,.playbook-page .vision-stack b::before{content:'→';font-size:1.25rem;font-weight:400}
+.playbook-page .playbook-split em{font-size:.82rem!important;font-weight:500}
+.playbook-page .playbook-better em{color:#1769aa!important}
+.playbook-page .playbook-rule{font-size:1rem!important;line-height:1.75!important;padding:20px 22px!important}
+
+/* Slightly strengthen the surrounding hierarchy so the diagram is not visually detached from the text. */
+.playbook-page .playbook-eyebrow{font-size:.72rem!important}
+.playbook-page .playbook-principle-body>h2{font-size:1.95rem!important;line-height:1.3!important;margin-bottom:18px!important}
+
+@media(max-width:900px){
+  .playbook-page .paper-stack,.playbook-page .vision-stack{gap:6px!important}
+  .playbook-page .paper-stack i,.playbook-page .vision-stack i{min-width:0!important;flex:1;padding:9px 7px!important;font-size:.76rem!important}
+}
+@media(max-width:720px){
+  .playbook-page .playbook-principle-body>h2{font-size:1.5rem!important}
+  .playbook-page .playbook-principle-body>p{font-size:.98rem!important}
+  .playbook-page .playbook-deadend,.playbook-page .playbook-better{padding:22px 16px!important;min-height:0}
+  .playbook-page .paper-stack,.playbook-page .vision-stack{overflow-x:auto;justify-content:flex-start!important;padding-bottom:5px}
+  .playbook-page .paper-stack i,.playbook-page .vision-stack i{flex:0 0 auto;min-width:82px!important}
+  .playbook-page .playbook-rule{font-size:.94rem!important}
+}
